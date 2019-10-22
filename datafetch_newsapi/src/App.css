@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aquamarine;
+}
+.App {
+  text-align: center;
+
+}
+
+h1{
+  text-align: center;
+  padding-top: 50px;
+  color: brown;
+}

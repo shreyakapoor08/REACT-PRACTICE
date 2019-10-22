@@ -1,0 +1,155 @@
+.details{
+  position: relative;
+}
+.profilepic img{
+  width: 180px;
+  height: 120px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 1px;
+  top: 1px;
+}
+
+
+.personal-info{
+  padding: 5px;
+  background-color: coral;
+  height: 160px;
+
+
+}
+
+.profilepic{
+  display: inline-block;
+  margin-top: 2px;
+}
+.namecontact{
+  display: inline-block;
+  margin-left: 250px;
+  margin-top: 70px;
+
+}
+
+.namecontact h4{
+  font-weight: bold;
+}
+.address h4{
+  font-weight: bold;
+}
+
+.address{
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.settings{
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.writetext h3{
+  margin-left: 50px;
+  color: brown;
+}
+
+.createbutton button{
+  text-align: center;
+  margin-left: 50px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.textInput{
+  width: 600px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.entertext{
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  padding-bottom: 5px;
+  margin-left: 12px;
+
+}
+
+.messageinorder{
+  padding: 5px;
+  /*width: 600px;*/
+  /*height: 100px;*/
+  box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+  margin: 20px;
+  min-height: 80px;
+  background-color: burlywood;
+}
+
+.messageinorder i{
+  font-size: 1.5em;
+  padding: 3px;
+  margin-top: 3px;
+}
+
+.settings button{
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+
+.settings i{
+  font-size: 42px;
+  cursor: pointer;
+  top: 60px;
+  position: absolute;
+}
+
+.myfriends{
+  border-left: 2px solid black;
+  height: 100vh;
+  overflow: auto;
+}
+
+.myfriends h2{
+  text-align: center;
+  font-weight: bold;
+  color: brown;
+  margin-bottom: 30px;
+}
+
+.myfriends ul li{
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.addfrnd{
+  text-align: center;
+  margin-left: 140px;
+  margin-bottom: 20px;
+  background-color: blueviolet;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+
+.datedisp{
+  font-weight: bold;
+}
+
+.clsTrue{
+  display: block;
+  cursor: pointer;
+  border: 1px solid black;
+  width: 60px;
+  margin-left: 50px;
+
+}
+
+.clsFalse{
+  display: none;
+}
