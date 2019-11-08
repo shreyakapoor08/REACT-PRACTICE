@@ -1,0 +1,77 @@
+.maindiv{
+    background-color: whitesmoke;   
+}
+
+.headingname{
+    text-align: center;
+    color: brown;
+}
+
+.search{
+    width: 48%;
+    text-align: center;
+    border: 1px solid grey;
+    margin-right:5px;
+    margin-left: 12px;
+    height: 60px;
+}
+
+.pokemontable{
+    border: 1px solid black;
+    width: 97%;
+    margin-top: 10px;
+    margin-left: 15px; 
+    margin-bottom: 10px; 
+    margin-right: 40px; 
+    
+}
+
+.pokemontable tr{
+    border-bottom: 1px solid black;
+}
+
+.pokemontable tr:hover{
+    background-color: rgba(0,0,0,0.25);
+    
+}
+
+.tableheading{
+    font-weight: bold;
+}
+
+.pokemontable td button{
+    color: red;
+    background-color: rosybrown;
+    cursor: pointer;
+}
+
+.pokemontable td{
+    padding: 4px;
+}
+
+.caughtme{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.addnewpokemon{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.addnewpokemon button{
+    color: red;
+    background-color: rosybrown;
+    cursor: pointer;
+    padding: 10px;
+    width: 125px;
+}
+
+.addnewpokemon input{
+    margin: 10px;
+    border: 1px solid black;
+    height: 30px;
+}
+
+
+
